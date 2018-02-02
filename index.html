@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h1> On Off example </h1>
+
+    <!--when click on Turn on the light button below code will activate-->
+    <button onclick='document.getElementById("myImage").src ="on.jpeg"'>
+        Light On the light
+    </button>
+
+    <!--this is the actually image when page displa-->>
+    <img id="myImage" src="off.jpeg" width="300" height="300" />
+
+    <!--when click on Turn off the light button below code will activate-->
+    <button onclick="document.getElementById('myImage').src='off.jpeg'">
+        Turn off the light
+    </button>
+
+    <br />
+
+    <p id="text1">This text size and color will change </p>
+    <button type="button" onclick=" document.getElementById('text1').style.fontSize = '35px'">Change fontSize!</button>
+
+
+</body>
+</html>
